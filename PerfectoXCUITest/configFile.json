@@ -2,23 +2,28 @@
   "cloudURL": "<<cloud name>>",
   "securityToken": "<<SECURITY TOKEN>>",
   "appPath": "C:\\Genesis\\Workspace\\XCUITest\\PerfectoXCUITestProject\\PerfectoXCUITest\\Test.app",
-  "testAppPath": "C:\\Genesis\\Workspace\\XCUITest\\PerfectoXCUITestProject\\PerfectoXCUITest\\TestUITests-Runner.app",
+   "testAppPath": "C:\\Genesis\\Workspace\\XCUITest\\PerfectoXCUITestProject\\PerfectoXCUITest\\TestUITests-Runner.app",
   "devices": [
 	  {
-	          "platformVersion": "11.*",
+          
+	          "platformVersion": "13.5.*",
 	          "manufacturer" : "Apple"
 	      },
 		  {
 		          "platformVersion": "11.*",
 		          "manufacturer" : "Apple"
-		      }
+		      },
+              {
+                      "platformVersion": "12.*",
+                      "manufacturer" : "Apple"
+                  }
   ],
   "tags": [
     "xcuitest",
     "sample"
   ],
   "projectName": "IOS-XCUITest",
-  "projectVersion": "v10.9-test",
+  "projectVersion": "v11-test",
   "appName": "Sample_App",
   "jobName": "some_job",
   "jobNumber": 1,

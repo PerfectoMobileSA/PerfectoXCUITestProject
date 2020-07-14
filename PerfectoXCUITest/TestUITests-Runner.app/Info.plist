@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
  <key>BuildMachineOSBuild</key>
- <string>18E193</string>
+ <string>19E211</string>
  <key>CFBundleAllowMixedLocalizations</key>
  <true/>
  <key>CFBundleDevelopmentRegion</key>
@@ -11,7 +11,7 @@
  <key>CFBundleExecutable</key>
  <string>TestUITests-Runner</string>
  <key>CFBundleIdentifier</key>
- <string>com.apple.test.TestUITests-Runner</string>
+ <string>gt.TestUITests.xctrunner</string>
  <key>CFBundleInfoDictionaryVersion</key>
  <string>6.0</string>
  <key>CFBundleName</key>
@@ -31,26 +31,70 @@
  <key>DTCompiler</key>
  <string>com.apple.compilers.llvm.clang.1_0</string>
  <key>DTPlatformBuild</key>
- <string>16E207</string>
+ <string>17E218</string>
  <key>DTPlatformName</key>
  <string>iphoneos</string>
  <key>DTPlatformVersion</key>
- <string>12.2</string>
+ <string>13.4</string>
  <key>DTSDKBuild</key>
- <string>16E207</string>
+ <string>17E218</string>
  <key>DTSDKName</key>
- <string>iphoneos12.2.internal</string>
+ <string>iphoneos13.4.internal</string>
  <key>DTXcode</key>
- <string>1020</string>
+ <string>1150</string>
  <key>DTXcodeBuild</key>
- <string>10G1d</string>
+ <string>11E605b</string>
  <key>LSRequiresIPhoneOS</key>
  <true/>
  <key>MinimumOSVersion</key>
  <string>8.0</string>
+ <key>NFCReaderUsageDescription</key>
+ <string>Access is necessary for automated testing.</string>
+ <key>NSAppTransportSecurity</key>
+ <dict>
+  <key>NSAllowsArbitraryLoads</key>
+  <true/>
+ </dict>
+ <key>NSAppleMusicUsageDescription</key>
+ <string>Access is necessary for automated testing.</string>
+ <key>NSBluetoothAlwaysUsageDescription</key>
+ <string>Access is necessary for automated testing.</string>
+ <key>NSCalendarsUsageDescription</key>
+ <string>Access is necessary for automated testing.</string>
+ <key>NSCameraUsageDescription</key>
+ <string>Access is necessary for automated testing.</string>
+ <key>NSFaceIDUsageDescription</key>
+ <string>Access is necessary for automated testing.</string>
+ <key>NSHealthClinicalHealthRecordsShareUsageDescription</key>
+ <string>Access is necessary for automated testing.</string>
+ <key>NSHealthShareUsageDescription</key>
+ <string>Access is necessary for automated testing.</string>
+ <key>NSHealthUpdateUsageDescription</key>
+ <string>Access is necessary for automated testing.</string>
+ <key>NSHomeKitUsageDescription</key>
+ <string>Access is necessary for automated testing.</string>
+ <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+ <string>Access is necessary for automated testing.</string>
+ <key>NSLocationUsageDescription</key>
+ <string>Access is necessary for automated testing.</string>
+ <key>NSLocationWhenInUseUsageDescription</key>
+ <string>Access is necessary for automated testing.</string>
+ <key>NSMicrophoneUsageDescription</key>
+ <string>Access is necessary for automated testing.</string>
+ <key>NSMotionUsageDescription</key>
+ <string>Access is necessary for automated testing.</string>
+ <key>NSPhotoLibraryAddUsageDescription</key>
+ <string>Access is necessary for automated testing.</string>
+ <key>NSPhotoLibraryUsageDescription</key>
+ <string>Access is necessary for automated testing.</string>
+ <key>NSRemindersUsageDescription</key>
+ <string>Access is necessary for automated testing.</string>
+ <key>NSSiriUsageDescription</key>
+ <string>Access is necessary for automated testing.</string>
+ <key>NSSpeechRecognitionUsageDescription</key>
+ <string>Access is necessary for automated testing.</string>
  <key>UIBackgroundModes</key>
  <array>
-  <string>unboundedTaskCompletion</string>
   <string>continuous</string>
  </array>
  <key>UIDeviceFamily</key>
