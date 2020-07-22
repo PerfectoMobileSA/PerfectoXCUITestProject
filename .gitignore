@@ -5,4 +5,7 @@ DerivedData/
 .DS_Store
 *.generated.swift
 tmp
+PerfectoXCUITest/.gradle/*
 .gradle/*
+*checksums.lock
+*checksums.bin

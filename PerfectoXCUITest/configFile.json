@@ -1,8 +1,8 @@
 {
   "cloudURL": "<<cloud name>>",
   "securityToken": "<<SECURITY TOKEN>>",
-  "appPath": "C:\\Genesis\\Workspace\\XCUITest\\PerfectoXCUITestProject\\PerfectoXCUITest\\Test.app",
-   "testAppPath": "C:\\Genesis\\Workspace\\XCUITest\\PerfectoXCUITestProject\\PerfectoXCUITest\\TestUITests-Runner.app",
+  "appPath": "C:\\GT\\Workspace\\xcuitest\\Test.app",
+   "testAppPath": "C:\\GT\\Workspace\\xcuitest\\Test.app",
   "devices": [
 	  {
           
