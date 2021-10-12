@@ -4,19 +4,14 @@
   "appPath": "C:\\GT\\Workspace\\xcuitest\\Test.app",
    "testAppPath": "C:\\GT\\Workspace\\xcuitest\\Test.app",
   "devices": [
-	  {
-          
-	          "platformVersion": "13.5.*",
-	          "manufacturer" : "Apple"
-	      },
-		  {
-		          "platformVersion": "11.*",
-		          "manufacturer" : "Apple"
-		      },
-              {
-                      "platformVersion": "12.*",
-                      "manufacturer" : "Apple"
-                  }
+	{
+	  "platformVersion": "13.5.*",
+	  "manufacturer" : "Apple"
+      	},
+      	{
+	   "platformVersion": "12.*",
+	   "manufacturer" : "Apple"
+      	}
   ],
   "tags": [
     "xcuitest",
