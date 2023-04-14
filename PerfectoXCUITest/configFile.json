@@ -1,17 +1,17 @@
 {
   "cloudURL": "<<cloud name>>",
   "securityToken": "<<SECURITY TOKEN>>",
-  "appPath": "C:\\GT\\Workspace\\xcuitest\\Test.app",
-   "testAppPath": "C:\\GT\\Workspace\\xcuitest\\Test.app",
+  "appPath": "Test.app",
+  "testAppPath": "TestUITests-Runner.app",
   "devices": [
-	{
-	  "platformVersion": "13.5.*",
-	  "manufacturer" : "Apple"
-      	},
-      	{
-	   "platformVersion": "12.*",
-	   "manufacturer" : "Apple"
-      	}
+    {
+      "platformVersion": "13.*",
+      "manufacturer": "Apple"
+    },
+    {
+      "platformVersion": "12.*",
+      "manufacturer": "Apple"
+    }
   ],
   "tags": [
     "xcuitest",
@@ -20,11 +20,10 @@
   "projectName": "IOS-XCUITest",
   "projectVersion": "v11-test",
   "appName": "Sample_App",
-  "jobName": "some_job",
+  "jobName": "XCUITEST",
   "jobNumber": 1,
   "branch": "master",
   "failBuildOnFailure": false,
-  
   "installationDetails": {
     "preCleanUp": true,
     "resign": true
@@ -37,7 +36,7 @@
   "debug": true,
   "runUnitTests": true,
   "runUiTests": true,
-  "shard" : false,
+  "shard": false,
   "takeScreenshotOnTestEnd": true,
   "testTimeout": "60000"
- }
+}

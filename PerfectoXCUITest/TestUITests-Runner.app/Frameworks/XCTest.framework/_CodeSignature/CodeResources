@@ -6,46 +6,20 @@
 	<dict>
 		<key>Info.plist</key>
 		<data>
-		n9hf+EqqxEyhMOBcqGclis7zhxo=
+		FZGlAr6bqpr64vpM8BbQ5H0EY/Y=
 		</data>
-		<key>en.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			TuBj57ZP6zBqcL9HttO2Rucaw9E=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>version.plist</key>
 		<data>
-		j2xX0HRhPjxg70FZvGCyBUN8cIA=
+		TRQWisClmxSbU83KcsUEHi+hKoo=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>en.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			TuBj57ZP6zBqcL9HttO2Rucaw9E=
-			</data>
-			<key>hash2</key>
-			<data>
-			89RGkjZaKuewYnjpzwhIswhqfrU8+pcEXqM/DHVrUmo=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>version.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			j2xX0HRhPjxg70FZvGCyBUN8cIA=
-			</data>
 			<key>hash2</key>
 			<data>
-			ktPNzviJOzlXDgy3JQdI8ShazPBEW5VZIH2FsxrELKE=
+			KOWRpllfJxkuA9iQHvKyX1ik02qjsTAi/qGhNn+Nz0U=
 			</data>
 		</dict>
 	</dict>
