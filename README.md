@@ -2,9 +2,15 @@
 
 Kindly follow the procedure mentioned [here](https://developers.perfectomobile.com/display/PD/XCUITest#expand-APreparetheapplicationandapplicationtestrunnerfiles) in order to generate the .app files for this sample project. Place the generated .app files into this project's base directory.<br>
 
-To activate the perfecto gradle plugin, open a command-line/terminal window in the project's folder and run the following gradle tasks:</br></br>
+Real Device: </br>
+To activate the perfecto gradle plugin, open a command-line/terminal window in the project's folder and run the following gradle tasks:</br>
 `cd PerfectoXCUITest`</br>
 `gradle perfecto-xctest -PconfigFileLocation=configFile.json -PcloudURL=${url} -PsecurityToken=${securityToken}`</br>
+
+Virtual Device: (Coming soon!)</br>
+To prepare xc product file & activate the perfecto gradle plugin, open a command-line/terminal window in the project's folder and run the following gradle tasks:</br>
+`cd PerfectoXCUITest`</br>
+`gradle buildXcodeProject perfecto-xctest-vd -PconfigFileLocation=configFileSim.json -PcloudURL=${url} -PsecurityToken=${securityToken}`</br>
 
 ### Note: 
 1. Replace ${url} with your perfecto cloud url. E.g.: demo.perfectomobile.com </br>

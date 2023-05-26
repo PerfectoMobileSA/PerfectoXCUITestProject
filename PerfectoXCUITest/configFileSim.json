@@ -1,0 +1,33 @@
+{
+  "cloudURL": "<<cloud name>>",
+  "securityToken": "<<SECURITY TOKEN>>",
+  "xctestProductsPath": "test.xctestproducts",
+  "testPlanName": "Test",
+  "numOfDevices": "2",
+  "tags": [
+    "xcuitest",
+    "sample"
+  ],
+  "projectName": "IOS-XCUITest-VD",
+  "projectVersion": "v1",
+  "appName": "Sample_VD_App",
+  "jobName": "XCUITEST-VD",
+  "jobNumber": 1,
+  "branch": "master",
+  "failBuildOnFailure": false,
+  "installationDetails": {
+    "resign": true
+  },
+  "postExecution": {
+    "uninstall": false
+  },
+  "acquireDeviceRetryNumber": 1,
+  "acquireDeviceRetryInterval": 200,
+  "takeScreenshotOnTestStep": true,
+  "debug": true,
+  "runUnitTests": true,
+  "runUiTests": true,
+  "shard": false,
+  "takeScreenshotOnTestFailure": true,
+  "testTimeout": "60000"
+}

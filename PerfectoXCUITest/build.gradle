@@ -2,9 +2,15 @@
 
 buildscript {
     repositories {
-        jcenter()
-		    maven {
-                url "https://repo1.perfectomobile.com/public/repositories/maven"
+        def flatDirPath = project.hasProperty('flatDirPath') ? project.getProperty('flatDirPath') : ''
+        if(flatDirPath != '') {
+            flatDir {
+                dirs flatDirPath
+            }
+        } else {
+            maven {
+                url "https://repo1.perfectomobile.com/public/repositories/maven/"
+            }
         }
     }
 
@@ -16,5 +22,25 @@ buildscript {
 apply plugin: 'com.perfectomobile.instrumentedtest.gradleplugin'
 
 perfectoGradleSettings {
-    configFileLocation "configFile.json"
+    configFileLocation "configFileSim.json"
+}
+
+
+tasks.register('cleanPreviousBuild', Exec) {
+    workingDir projectDir
+    commandLine "bash", "-c", "rm -fr *.xctestproducts dd"
+}
+tasks.register('buildXcodeProject') {
+    dependsOn cleanPreviousBuild
+    doLast {
+        exec {
+            commandLine "bash", "-c", "xcodebuild build-for-testing" +
+                    " -project *.xcodeproj" +
+                    " -destination generic/platform='iOS Simulator'" +
+                    " -scheme Test" +
+                    " -derivedDataPath dd/" +
+                    " -quiet" +
+                    " -testProductsPath test.xctestproducts CODE_SIGN_IDENTITY=\"\" CODE_SIGNING_ALLOWED=NO IPHONEOS_DEPLOYMENT_TARGET=14.4"
+        }
+    }
 }
