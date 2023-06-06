@@ -15,16 +15,6 @@
   "jobNumber": 1,
   "branch": "master",
   "failBuildOnFailure": false,
-  "installationDetails": {
-    "resign": true
-  },
-  "postExecution": {
-    "uninstall": false
-  },
-  "acquireDeviceRetryNumber": 1,
-  "acquireDeviceRetryInterval": 200,
-  "takeScreenshotOnTestStep": true,
-  "debug": true,
   "runUnitTests": true,
   "runUiTests": true,
   "shard": false,
