@@ -16,6 +16,7 @@ class  InitPage {
     
     static func waitForPerfecto() {
         let testcase = XCTestCase()
+        labelPerfecto.waitForExistence(timeout: 10)
         testcase.waitForElementToAppear(element: labelPerfecto)
       }
      

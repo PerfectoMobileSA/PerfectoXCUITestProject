@@ -2,7 +2,6 @@
   "cloudURL": "<<cloud name>>",
   "securityToken": "<<SECURITY TOKEN>>",
   "xctestProductsPath": "test.xctestproducts",
-  "testPlanName": "Test",
   "numOfDevices": "2",
   "tags": [
     "xcuitest",

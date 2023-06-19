@@ -36,6 +36,8 @@
 						<string>__TESTROOT__/Debug-iphonesimulator/TestUITests-Runner.app</string>
 						<string>__TESTROOT__/Debug-iphonesimulator/TestUITests-Runner.app/PlugIns/TestUITests.xctest</string>
 					</array>
+					<key>DiagnosticCollectionPolicy</key>
+					<integer>1</integer>
 					<key>EnvironmentVariables</key>
 					<dict>
 						<key>OS_ACTIVITY_DT_MODE</key>
