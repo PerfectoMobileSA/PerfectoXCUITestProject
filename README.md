@@ -7,8 +7,8 @@ Real Device: </br>
 `cd PerfectoXCUITest`</br>
 `gradle perfecto-xctest -PconfigFileLocation=configFile.json -PcloudURL=${url} -PsecurityToken=${securityToken}`</br>
 
-Virtual Device: (Coming soon!)</br>
-- Search for "XCUITest tests for virtual devices" documentation within our [help](https://help.perfecto.io/perfecto-help/content/home.htm) portal and prepare the application files. This gradle has a sample task named buildXcodeProject which prepares the .xctestproducts automatically.</br>
+Virtual Device: </br>
+- Refer our [help](https://help.perfecto.io/perfecto-help/content/perfecto/automation-testing/xcuitest-virtual-devices.htm) portal and prepare the application files. PerfectoXCUITest's build.gradle has a sample task named buildXcodeProject which prepares the .xctestproducts automatically.</br>
 - To prepare xc product file & activate the perfecto gradle plugin, open a command-line/terminal window in the project's folder and run the following gradle tasks:</br>
 `cd PerfectoXCUITest`</br>
 `gradle buildXcodeProject perfecto-xctest-vd -PconfigFileLocation=configFileSim.json -PcloudURL=${url} -PsecurityToken=${securityToken}`</br>
