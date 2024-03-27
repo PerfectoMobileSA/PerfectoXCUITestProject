@@ -21,6 +21,8 @@
 					<string>TestUITests</string>
 					<key>BlueprintProviderName</key>
 					<string>Test</string>
+					<key>BlueprintProviderRelativePath</key>
+					<string>Test.xcodeproj</string>
 					<key>BundleIdentifiersForCrashReportEmphasis</key>
 					<array>
 						<string>com.perfecto.gtTest</string>
@@ -40,6 +42,8 @@
 					<integer>1</integer>
 					<key>EnvironmentVariables</key>
 					<dict>
+						<key>APP_DISTRIBUTOR_ID_OVERRIDE</key>
+						<string>com.apple.AppStore</string>
 						<key>OS_ACTIVITY_DT_MODE</key>
 						<string>YES</string>
 						<key>SQLITE_ENABLE_THREAD_ASSERTIONS</key>
@@ -49,6 +53,8 @@
 					<true/>
 					<key>IsXCTRunnerHostedTestBundle</key>
 					<true/>
+					<key>PreferredScreenCaptureFormat</key>
+					<string>screenRecording</string>
 					<key>ProductModuleName</key>
 					<string>TestUITests</string>
 					<key>SkipTestIdentifiers</key>
@@ -88,6 +94,8 @@
 					<array/>
 					<key>UITargetAppEnvironmentVariables</key>
 					<dict>
+						<key>APP_DISTRIBUTOR_ID_OVERRIDE</key>
+						<string>com.apple.AppStore</string>
 						<key>DYLD_FRAMEWORK_PATH</key>
 						<string>__TESTROOT__/Debug-iphonesimulator</string>
 						<key>DYLD_LIBRARY_PATH</key>

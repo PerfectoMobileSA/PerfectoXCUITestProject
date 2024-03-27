@@ -5,10 +5,8 @@
   "testAppPath": "TestUITests-Runner.app",
   "devices": [
     {
-      "model": "iPhone.*"
-    },
-    {
-      "model": "iPhone.*"
+      "model" : "iPhone.*",
+      "platformVersion": "16.*|17.*"
     }
   ],
   "tags": [

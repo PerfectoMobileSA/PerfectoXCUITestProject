@@ -7,8 +7,8 @@
 		<dict>
 			<key>Architectures</key>
 			<array>
-				<string>x86_64</string>
 				<string>arm64</string>
+				<string>x86_64</string>
 			</array>
 			<key>Scheme</key>
 			<string>Test</string>

@@ -2,7 +2,12 @@
   "cloudURL": "<<cloud name>>",
   "securityToken": "<<SECURITY TOKEN>>",
   "xctestProductsPath": "test.xctestproducts",
-  "numOfDevices": "2",
+  "devices": [
+    {
+      "model" : "iPhone.*",
+      "platformVersion": "16.*|17.*"
+    }
+  ],
   "tags": [
     "xcuitest",
     "sample"
